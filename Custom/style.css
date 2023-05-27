@@ -1,0 +1,256 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ .navbar{
+    background-image: linear-gradient(to right,#69da63,#09b37de0);
+    padding: 0px  !important;
+    position: sticky;
+    top: 0;
+}
+.navbar-nav li{
+    padding : 0 10px;
+    
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 500;
+    float: right;
+    text-align: left;
+}
+.navbar-brand{
+    padding-left: 20px;
+    font-weight: 800;
+}
+
+/*-------------------------Banner Section Start-------------------------*/
+#banner{
+    background:linear-gradient(to right,#69da63,#09b37de0);
+    color: white;
+
+}
+.promo-heading{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.promo-link i{
+    font-size: 50px;
+    columns: white;
+}
+.promo-link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+}
+.promo-link:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.banner-img{
+    width: 80%;
+}
+
+.banner-wave img{
+    width: 100%;
+}
+
+/*-------------------------OurServices Section Start-------------------------*/
+#ourservices{
+    margin-top: 50px;
+/* height: 800px; */
+}
+#ourservices h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 50px;
+}
+#ourservices img{
+margin-top: 30px;
+}
+.custom-line::before{
+    content: '';
+    background: #69da63;
+    height: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.custom-line::after{
+    content: '';
+    background: #69da63;
+    height: 9px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+/*-------------------------About Section Start-------------------------*/
+#about{
+    margin-top: 80px;
+    background-color: #f9f9f9;
+    height: 700px;
+}
+#about h2{
+    padding-top: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+#about li{
+    line-height: 2;
+    font-size: 18px;
+}
+#about img{
+    width: 70%;
+}
+/*-------------------------What about client says Section Start-------------------------*/
+#wcs{
+    margin: 100px 0;
+}
+#wcs h2{
+    font-size: 40px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+.client{
+    border-left: 4px solid #69da63;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.client img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.client-detail{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*-------------------------Social media Section Start-------------------------*/
+#socialmedia{
+    margin: 40px 0;
+}
+#socialmedia h2{
+    font-size: 40px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+.logo img{
+width: 3.5%;
+margin-left: 30px;
+}
+.logo img:hover{
+ rotate: 30deg;
+}
+
+/*-------------------------Footer Section Start-------------------------*/
+#footer{
+    /* padding: 50px 0; */
+    background:linear-gradient(to right,#69da63,#09b37de0);
+    color: #fff;
+}
+.footer-heading{
+font-size: 30px;
+text-transform: uppercase;
+font-weight: 500;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.footer-image{
+    width: 100%;
+}
+#footer p{
+margin-left: 100px;
+}
+#footer iframe{
+    width: 100%;
+    height: 60%;
+}
+.copyright{
+    background-color: black;
+    padding: 10px 0;
+}
+/*-------------------------Media Query  Start-------------------------*/
+
+@media screen and (max-width: 480px) {
+    .promo-heading{ 
+        margin-top: 100px;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+       
+    }
+    .banner-img{
+        width: 40%;
+  }
+ .custom-line{
+    font-size: 20px;
+ }
+ #ourservices h2, #socialmedia h2 , #about h2, #wcs h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    /* padding-top: 50px; */
+}
+.custom-line::before{
+    content: '';
+    background: #69da63;
+    height: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(45px);
+}
+.custom-line::after{
+    content: '';
+    background: #69da63;
+    height: 9px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#ourservices h3, .about-title{
+    font-size: 19px;
+}
+#about li{
+    line-height: 1.5;
+    font-size: 15px;
+}
+.client{
+    border-left: 4px solid #69da63;
+    margin-top: 10px;
+    
+}
+.logo img{
+    width: 6%;
+}
+.footer-heading{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ 
+    }
+    #footer p{
+        margin-left: 0px;
+        }
+
+  }
